@@ -4,7 +4,7 @@ This is a well configured repository to show how to prevent to leak Repository S
 
 In this repository is configured is a secret named `SECURE_SECRET`.
 
-Using GitHub Action you can't get the secret (catch the flag).
+Using GitHub Action on Pull Request you can't get the secret (catch the flag).
 
 Scenario:
 - `main` has branch protection enabled
