@@ -13,7 +13,7 @@ Scenario:
 - anyone in PagoPA GitHub Organization has `write` permission on this repository
 
 Safe scenario:
-- an internal user with `write` permission create a Pull Request to try get `SECURE_SECRET` value. The GitHub Action fails to start because only a protected branch can use `prod` environment (example Pull Request https://github.com/pagopa/example-good-repo-secrets/pull/1)
+- a user with `write` permission create a Pull Request to try get `SECURE_SECRET` value. The GitHub Action fails to start because only a protected branch can use `prod` environment (example Pull Request https://github.com/pagopa/example-good-repo-secrets/pull/1)
 
 ## How to leak unsecure GitHub Secrets?
 
