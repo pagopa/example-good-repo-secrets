@@ -1,4 +1,4 @@
-# example-bad-repo-secrets
+# example-good-repo-secrets
 
 This is a misconfigured repository to show how to leak Repository Secrets using GitHub Actions.
 
