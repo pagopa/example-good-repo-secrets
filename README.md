@@ -8,7 +8,7 @@ Using GitHub Action you can't get the secret (catch the flag).
 
 Scenario:
 - `main` has branch protection enabled
-- there is a `prod` environment with `Deployment branches` configured with `Protected branches`. Tf you use multiple protected branches you may need to use more strict configuration `Selected branches` (example `prod` environment configuration )
+- there is a `prod` environment with `Deployment branches` configured with `Protected branches`. Tf you use multiple protected branches you may need to use more strict configuration `Selected branches` (example `prod` environment configuration https://github.com/pagopa/example-good-repo-secrets/blob/main/images/environment-prod.png)
 - `SECURE_SECRET` is configured on `prod` environment level
 - anyone in PagoPA GitHub Organization has `write` permission on this repository
 
