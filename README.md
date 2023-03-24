@@ -7,7 +7,7 @@ In this repository is configured is a secret named `SECURE_SECRET`.
 Using GitHub Action on Pull Request you can't get the secret (catch the flag).
 
 Scenario:
-- `main` has branch protection enabled
+- `main` has branch protection enabled with a review from CODEOWNERS
 - there is a `prod` environment with `Deployment branches` configured with `Protected branches`. If you use multiple protected branches you may need to use more strict configuration `Selected branches` (example `prod` environment configuration https://github.com/pagopa/example-good-repo-secrets/blob/main/images/environment-prod.png)
 - `SECURE_SECRET` is configured on `prod` environment
 - anyone in PagoPA GitHub Organization has `write` permission on this repository
